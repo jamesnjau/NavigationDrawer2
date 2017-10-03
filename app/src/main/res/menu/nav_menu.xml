@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item/>
+        <item/>
+        <item/>
+    </group>
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/settings"
+            android:title="Setting"
+            android:icon="@drawable/ic_settings_black_24dp"/>
+        <item
+            android:title="Feedback"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:id="@+id/feedback"/>
+
+        <item
+            android:title="Like"
+            android:icon="@drawable/ic_thumb_up_black_24dp"
+            android:id="@+id/like"/>
+        <item
+            android:title="Check update"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:id="@+id/update"/>
+        <item
+            android:title="About"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:id="@+id/about"/>
+    </group>
+
+    <item android:title="Communicate">
+    <menu>
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"/>
+    <item android:id="@+id/send"
+        android:icon="@drawable/ic_send_black_24dp"
+        android:title="Send"/>
+        <item
+            android:title="Exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:id="@+id/exit"/>
+        </menu>
+    </item>
+</menu>

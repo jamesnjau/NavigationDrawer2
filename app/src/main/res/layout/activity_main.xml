@@ -1,0 +1,33 @@
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#2102879f"
+        android:layout_height="wrap_content"/>
+    <GridView
+        android:id="@+id/customgrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/os_texts"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="1dp"
+        android:stretchMode="spacingWidthUniform"
+        android:columnWidth="80dp" />
+
+
+     <android.support.design.widget.NavigationView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         app:itemTextColor="#000"
+         android:background="#dad9d9"
+         android:id="@+id/navigation_view"
+         app:menu="@menu/nav_menu"
+         android:clickable="true"
+         android:layout_gravity="start">
+         <include layout="@layout/new_header_main"/>
+     </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
